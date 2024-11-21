@@ -1,0 +1,45 @@
+.background {
+    -fx-background-color: linear-gradient(#ff2121, #7b1010);
+}
+
+.button {
+    -fx-width:  275;
+    -fx-background-color:  #ffb3b3a6;
+    -fx-background-radius:  24px;
+    -fx-text-fill: #ffe9e9;
+    -fx-font-size:  20px;
+    -fx-font-family: garamond;
+    -fx-text-align:  center;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0.0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color:  #c78d8da6;
+    -fx-text-fill: #fad0d0;
+}
+
+.label.zag {
+    -fx-text-fill: #ffe9e9;
+    -fx-font-family: garamond;
+    -fx-text-align: center;
+    -fx-font-size:  38px;
+    /* -fx-padding: 0 0 10 0; */
+    -fx-border-color: transparent transparent #ffe9e9 transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.label.pr {
+    -fx-text-fill: #ffe9e9;
+    -fx-font-family: garamond;
+    -fx-text-align: center;
+    -fx-font-size:  18px;
+}
+
+.passwordField {
+    -fx-background-color:  rgba(255, 255, 255, 0);
+    -fx-border-color: transparent transparent #ffe9e9 transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-text-fill: #ffe9e9;
+    -fx-padding: 0 0 0 0;
+}
